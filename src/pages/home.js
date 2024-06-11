@@ -78,8 +78,8 @@ function HomePage() {
             <p>
               <strong>Link :</strong><br/>
               <br/> Find here the different important link <br/>
-              <br/> <a className="button" href="https://github.com/antoheri/duckdash-presentation" target="_blank"> GitHub </a>
-              <br/> <a className="button" href="https://github.com/antoheri/duckdash-presentation" target="_blank"> Game </a>
+              <br/> <a className="button" href="https://github.com/antoheri/duckdash-presentation"> GitHub </a>
+              <br/> <a className="button" href="https://github.com/antoheri/duckdash-presentation"> Game </a>
             </p>
           </article>
         </section>
