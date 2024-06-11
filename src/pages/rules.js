@@ -44,7 +44,6 @@ function RulesPage() {
           <div>
             <h3>Additional Information</h3>
             <p>This page helps you understand the basic rules of the game.</p>
-            <p>For more details, visit our FAQ or contact us.</p>
           </div>
         </aside>
       </main>

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Main Screenshot of the Game: Duck Dash Adventure",
+    "image": "Homepage",
+    "description": "Experience the vibrant and challenging urban world of Duck Dash, where every corner turns into an adventure!"
+  },
+  {
+    "title": "Login Page",
+    "image": "Loginpage",
+    "description": "Start your adventure by logging into the world of Duck Dash. Enter your credentials to begin!"
+  },
+  {
+    "title": "Character Overview",
+    "image": "Characterepage",
+    "description": "Choose your feathered hero at the beginning of the game. Each duck comes with its own unique colors and abilities."
+  },
+  {
+    "title": "Example of a Game Situation",
+    "image": "Game",
+    "description": "Get a glimpse of the intense gameplay where your duck navigates through tricky obstacles in the bustling cityscape."
+  },
+  {
+    "title": "Game Over Screen",
+    "image": "GameOverpage",
+    "description": "See what happens when you run out of lives in Duck Dash. Can you avoid this fate?"
+  }
+]

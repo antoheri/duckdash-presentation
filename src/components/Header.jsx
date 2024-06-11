@@ -8,8 +8,8 @@ export default function Header() {
         <ul>
           <li className="hamburger">
             <img
-              src="ressources/images/hamburger_icon.svg"
-              alt="haburger logo"
+                src="../../images/hamburger_icon.svg"
+                alt="haburger logo"
             />
           </li>
           <li className={location.endsWith("/") ? "active" : ""}>
@@ -23,6 +23,9 @@ export default function Header() {
           </li>
           <li className={location.endsWith("skills") ? "active" : ""}>
             <Link to="/skills">Skills</Link>
+          </li>
+          <li className={location.endsWith("gamePage") ? "active" : ""}>
+            <Link to="/gamePage">GamePage</Link>
           </li>
         </ul>
       </nav>
