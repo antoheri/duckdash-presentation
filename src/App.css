@@ -1,38 +1,276 @@
-.App {
+/* Imports and variables */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,700|Roboto+Slab:700");
+
+:root {
+  --main-color: #5ec986;
+  --sec-color: white;
+}
+
+/* Main elements of the page */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: Montserrat, Arial;
+}
+
+h1 {
+  color: white;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
+    0 0 15px rgba(255, 255, 255, 0.5);
+  margin: 100px 0px 25px 25px;
+}
+
+/* Header */
+header {
+  background-image: url(../images/headerBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  background-position: right;
+}
+
+nav {
+  min-height: 40px;
+  background-color: var(--main-color);
+}
+
+nav ul {
+  min-height: 40px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  min-height: 40px;
+  min-width: 110px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul li a {
+  display: inline-block;
+  position: relative;
+  top: 11px;
+  color: var(--sec-color);
+  width: 100%;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active {
+  background-color: var(--sec-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.active a {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Main and articles */
+main {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+main h2 {
+  border-bottom: 1px solid var(--main-color);
+}
+
+#articles {
+  margin: 0px 25px 25px 0px;
+  display: block;
+}
+
+#articles header {
+  background: white;
+  margin-bottom: 25px;
+}
+
+#articles header p {
+  text-align: right;
+  color: var(--main-color);
+}
+
+/* Aside */
+aside {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 10px 10px;
+  align-self: flex-start;
+  min-width: 300px;
+}
+
+aside h3 {
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  background-color: var(--main-color);
+  padding: 10px;
+}
+
+aside ul {
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 120px;
+  background: var(--main-color);
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: 95% 55%;
+}
+
+#logo {
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+}
+
+/* Index */
+#descriptionImage {
+  max-width: 100%;
+  margin-top: 40px;
+}
+/* Logbook */
+.entete ul {
+  list-style: none;
+  padding: 0;
+}
+
+.log {
+  margin-top: 10px;
+}
+
+.log li {
+  margin-bottom: 10px;
+}
+
+.log strong {
+  font-weight: bold;
+}
+
+.log table {
+  border-collapse: collapse;
+}
+
+.log th,
+.journal td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.log th {
+  text-align: center;
+}
+
+.taskTitle {
+  margin-top: 20px;
+}
+
+/* Mockup gallery */
+
+.inTextImg {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  row-gap: 40px;
+}
+
+.image-gallery div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.image-gallery img {
+  width: 200px;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.full-width {
+  min-width: 80%;
+  margin: 20px auto;
+}
+
+.full-width img {
+  min-width: 100%;
+  height: auto;
+}
+
+/*Sketch*/
+.sketchImg img {
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  main {
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav ul {
+    margin-left: 0;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+
+  aside {
+    min-width: 100%;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 25px;
+  }
+
+  .full-width {
+    max-width: 100px;
+    height: auto;
+    margin: 0;
+  }
+  .smallTable {
+    display: none;
   }
 }
