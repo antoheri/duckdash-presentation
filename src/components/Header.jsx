@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Header() {
   const location = window.location.href;
   return (
@@ -11,20 +12,17 @@ export default function Header() {
               alt="haburger logo"
             />
           </li>
-          <li className={location.endsWith("index.html") ? "active" : ""}>
-            <a href="index.html">Description</a>
+          <li className={location.endsWith("/") ? "active" : ""}>
+            <Link to="/">Home</Link>
           </li>
-          <li className={location.endsWith("sketch.html") ? "active" : ""}>
-            <a href="sketch.html">Sketch</a>
+          <li className={location.endsWith("rules") ? "active" : ""}>
+            <Link to="/rules">Rules</Link>
           </li>
-          <li className={location.endsWith("mockup.html") ? "active" : ""}>
-            <a href="mockup.html">Mockup</a>
+          <li className={location.endsWith("logbook") ? "active" : ""}>
+            <Link to="/logbook">Logbook</Link>
           </li>
-          <li className={location.endsWith("flow.html") ? "active" : ""}>
-            <a href="flow.html">Flow</a>
-          </li>
-          <li className={location.endsWith("logbook.html") ? "active" : ""}>
-            <a href="logbook.html">Logbook</a>
+          <li className={location.endsWith("skills") ? "active" : ""}>
+            <Link to="/skills">Skills</Link>
           </li>
         </ul>
       </nav>
