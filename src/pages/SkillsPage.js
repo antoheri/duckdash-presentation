@@ -44,8 +44,8 @@ function SkillsPage() {
                             <tr>
                                 <td>Medias & API</td>
                                 <td>x (canvas AND audio or video)</td>
-                                <td>file.js line: XXX</td>
-                                <td><img src="/path_to_screenshot2.png" alt="Medias & API Screenshot"/></td>
+                                <td>sound.js line: 1-6</td>
+                                <td><img src="/ressources/skillsImg/Media.png" alt="Medias & API Screenshot"/></td>
                             </tr>
                             <tr>
                                 <td>DOM Handling Functions</td>
