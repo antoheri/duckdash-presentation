@@ -1,5 +1,47 @@
 [
   {
+    "Date": "12.06.2024",
+    "Activity": "Final Integration",
+    "Participants": "All",
+    "Duration": 2,
+    "Description": "Transfer the project on Pantheon and Wordpress"
+  },
+  {
+    "Date": "28.05.2024",
+    "Activity": "Features",
+    "Participants": "Yannick",
+    "Duration": 1,
+    "Description": "Add the localisation"
+  },
+  {
+    "Date": "26.05.2024",
+    "Activity": "Design + integration",
+    "Participants": "Yannick",
+    "Duration": 3,
+    "Description": "draw alternative skills and create the drag and drop page"
+  },
+  {
+    "Date": "22.05.2024",
+    "Activity": "Code canva moving",
+    "Participants": "Yannick, Antoine",
+    "Duration": 5,
+    "Description": "Code the movement of the canva to generate new environment continually"
+  },
+  {
+    "Date": "17.05.2024",
+    "Activity": "Code wood logs and river",
+    "Participants": "Yannick",
+    "Duration": 4,
+    "Description": "Generate random wood logs on each river with random direction and size."
+  },
+  {
+    "Date": "14.05.2024",
+    "Activity": "Setup basic game",
+    "Participants": "Yannick",
+    "Duration": 2,
+    "Description": "Split the canva and generate random ennvironment with basic color. setup duck movement"
+  },
+  {
     "Date": "04.04.2024",
     "Activity": "Text correction",
     "Participants": "Marc",
