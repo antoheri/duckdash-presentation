@@ -1,11 +1,18 @@
-import { Link } from "react-router-dom";
 import "../App.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import logsData from "../datas/logs";
 import Log from "../components/Log";
 
-let totalDuration = logsData.reduce((acc, log) => acc + log.duration, 0);
+function getTotalDuration(logs) {
+  let totalDuration = 0;
+  logs.forEach((log) => {
+    totalDuration += parseInt(log.Duration);
+  });
+  return totalDuration;
+}
+
+let totalDuration = getTotalDuration(logsData);
 
 function LogbookPage() {
   return (
@@ -57,7 +64,7 @@ function LogbookPage() {
             <h3>Summary of project data</h3>
             <ul>
               <li>
-                <strong>Total time of project</strong>: XX hours
+                <strong>Total time of project</strong>: {totalDuration} hours
               </li>
               <li>
                 <strong>Other data: ...</strong>
