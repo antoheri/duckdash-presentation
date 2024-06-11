@@ -1,0 +1,86 @@
+[
+  {
+    "skill": "HTML Forms Elements",
+    "implementation": "x (form with HTML input and validation see optional JS)",
+    "location": "login.html line: 17-20",
+    "image": "HTML_Form"
+  },
+  {
+    "skill": "Medias & API",
+    "implementation": "x (canvas AND audio or video)",
+    "location": "file.js line: XXX",
+    "image": "HTML_Form"
+  },
+  {
+    "skill": "DOM Handling Functions",
+    "implementation": "x (min. getElementById())",
+    "location": "login.html line: 30-35",
+    "image": "DOM_handling_function"
+  },
+  {
+    "skill": "Loop & iterators",
+    "implementation": "x (loop on object)",
+    "location": "main.js line: 76-82",
+    "image": "Loop_iterator"
+  },
+  {
+    "skill": "Types of functions",
+    "implementation": "x (standard function with parameters and method)",
+    "location": "Environment.js line: 123-141 main.js line: 42-44",
+    "image": "Standard_function"
+  },
+  {
+    "skill": "Types de stockages (bonus)",
+    "implementation": "x (local storage)",
+    "location": "choose_character.js line: 46-53",
+    "image": "Stockage_type"
+  },
+  {
+    "skill": "Callback",
+    "implementation": "x (either by use of API or own construction)",
+    "location": "Obstacles.js line: 21-28",
+    "image": "CallBack"
+  },
+  {
+    "skill": "Drag'n Drop",
+    "implementation": "x (Building an avatar)",
+    "location": "choose_character.js line: 26-44",
+    "image": "DragDrop"
+  },
+  {
+    "skill": "Ajax",
+    "implementation": "OPTIONAL (Game setup)",
+    "location": "login.html line: 50-74",
+    "image": "Ajax"
+  },
+  {
+    "skill": "Several variable scope in JS",
+    "implementation": "x (implicit)",
+    "location": "main.js line: 5-27",
+    "image": "Several_varaible_scope_JS"
+  },
+  {
+    "skill": "Natives Libraries",
+    "implementation": "x (min. Math)",
+    "location": "main.js line: 85-86",
+    "image": "Natives Libraries"
+  },
+  {
+    "skill": "Variable comparison operators",
+    "implementation": "x (implicit)",
+    "location": "main.js line: 87-95",
+    "image": "Variable_Comp_operator"
+  },
+  {
+    "skill": "JSON",
+    "implementation": "OPTION (Game setup et React JS website)",
+    "location": "score.js line: 16-24",
+    "image": "JSON"
+  },
+  {
+    "skill": "Geolocalisation",
+    "implementation": "x (Implicit)",
+    "location": "login.html line: 38-47",
+    "image": "Geolocalisation"
+  }
+]

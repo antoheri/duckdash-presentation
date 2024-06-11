@@ -1,0 +1,86 @@
+[
+  {
+    "Date": "04.04.2024",
+    "Activity": "Text correction",
+    "Participants": "Marc",
+    "Duration": 2,
+    "Description": "Revision and enhancement of descriptive texts and game instructions."
+  },
+  {
+    "Date": "25.03.2024",
+    "Activity": "Finish the mockup and all the design",
+    "Participants": "Marc",
+    "Duration": 6,
+    "Description": "Creating the first design of a maximum of elements that will be part of the game"
+  },
+  {
+    "Date": "29.03.2024",
+    "Activity": "Writing all the text for each pages",
+    "Participants": "Marc",
+    "Duration": 4,
+    "Description": "Composing and finalizing all the textual content for the various pages of the game, ensuring clarity and engagement"
+  },
+  {
+    "Date": "10.03.2024",
+    "Activity": "Creating a first version of the CSS design.",
+    "Participants": "All",
+    "Duration": 4,
+    "Description": "Making a design inspired by the model while learning CSS and publish the page through pages on github."
+  },
+  {
+    "Date": "28.03.2024",
+    "Activity": "CSS",
+    "Participants": "Antoine",
+    "Duration": 6,
+    "Description": "Finish the CSS and the responsive part"
+  },
+  {
+    "Date": "04.04.2024",
+    "Activity": "Text correction",
+    "Duration": 1,
+    "Description": "Revision and enhancement of descriptive texts and game instructions.",
+    "Participants": "Marc"
+  },
+  {
+    "Date": "07.04.2024",
+    "Activity": "Logbook creation",
+    "Duration": 1,
+    "Description": "Creation of the table for the loogbook",
+    "Participants": "Yannick"
+  },
+  {
+    "Date": "08.04.2024",
+    "Activity": "Sitemap + game sequence",
+    "Duration": 2,
+    "Description": "Creation of the game Sequence + Site map",
+    "Participants": "Antoine + Yannick"
+  },
+  {
+    "Date": "11.04.2024",
+    "Activity": "Revise project for CC1",
+    "Duration": 1,
+    "Description": "Check all the page, convert in file and submit the CC1",
+    "Participants": "All"
+  },
+  {
+    "Date": "11.06.2024",
+    "Activity": "Finish the react part of the website",
+    "Duration": 2,
+    "Description": "Create and introducte JSX elements, store data as JSON files and use React to display the data",
+    "Participants": "Antoine"
+  },
+  {
+    "Date": "20.05.2024",
+    "Activity": "Set up the collisions",
+    "Duration": 6,
+    "Description": "Set up the collisions between the player and the obstacles",
+    "Participants": "Antoine"
+  },
+  {
+    "Date": "23.05.2024",
+    "Activity": "Create the home page and the login screen",
+    "Duration": 2,
+    "Description": "Create the home page and the login screen",
+    "Participants": "Antoine"
+  }
+]
