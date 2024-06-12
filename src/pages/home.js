@@ -11,7 +11,6 @@ function HomePage() {
           <article>
             <header>
               <h2>Description of Your Game Project: Duck Dash Adventure</h2>
-              <p>By Jean Dupont on February 5th, 2019 at 09:00</p>
             </header>
             <p>
               Embark on an adventure with Duck Dash, an inspired take on the

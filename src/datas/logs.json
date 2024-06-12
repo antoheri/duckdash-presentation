@@ -127,7 +127,7 @@
   },
   {
     "Date": "18.05.2024",
-    "Duration": 3,
+    "Duration": 2,
     "Activity": "Implementation of Trees",
     "Description": "Integration of tree graphics into the game environment, enhancing the visual appeal and providing new obstacles for gameplay.",
     "Participants": "Marc"
@@ -141,14 +141,14 @@
   },
   {
     "Date": "24.04.2024",
-    "Duration": 3,
+    "Duration": 2,
     "Activity": "Graphical Modifications",
     "Description": "Revision and enhancement of game graphics to improve visual quality and user interface aesthetics.",
     "Participants": "Marc"
   },
   {
     "Date": "24.05.2024",
-    "Duration": 3,
+    "Duration": 2,
     "Activity": "Creation of GameOver Display",
     "Description": "Design and implementation of the GameOver screen, incorporating features for game reset or exit options.",
     "Participants": "Marc"
@@ -176,7 +176,7 @@
   },
   {
     "Date": "29.05.2024",
-    "Duration": 3,
+    "Duration": 2,
     "Activity": "Add sound to the game",
     "Description": "Add the sound to the game and the sound management page",
     "Participants": "Marc"

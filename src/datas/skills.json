@@ -1,85 +1,85 @@
 [
   {
     "skill": "HTML Forms Elements",
-    "implementation": "x (form with HTML input and validation see optional JS)",
+    "implementation": "Use of HTML form elements like <input> and <label>to create a user interface for entering user information.",
     "location": "login.html line: 17-20",
     "image": "HTML_Form"
   },
   {
     "skill": "Medias & API",
-    "implementation": "x (canvas AND audio or video)",
+    "implementation": "Use of the Web Audio API to play background audio files. Creation and manipulation of <audio> elements via JavaScript.",
     "location": "file.js line: XXX",
     "image": "Media"
   },
   {
     "skill": "DOM Handling Functions",
-    "implementation": "x (min. getElementById())",
+    "implementation": "Manipulation of the DOM to interact with HTML elements using getElementById(), adding event listeners to handle user actions.",
     "location": "login.html line: 30-35",
     "image": "DOM_handling_function"
   },
   {
     "skill": "Loop & iterators",
-    "implementation": "x (loop on object)",
+    "implementation": "Use of loops to iterate over objects, manipulation of objects in a game environment to update their positions or states.",
     "location": "main.js line: 76-82",
     "image": "Loop_iterator"
   },
   {
-    "skill": "Types of functions",
-    "implementation": "x (standard function with parameters and method)",
+    "skill": "Use of standard functions with parameters and methods.",
+    "implementation": "Standard function",
     "location": "Environment.js line: 123-141 main.js line: 42-44",
     "image": "Standard_function"
   },
   {
-    "skill": "Types de stockages (bonus)",
-    "implementation": "x (local storage)",
+    "skill": "Use of local storage.",
+    "implementation": "Choose the correct image of the duck",
     "location": "choose_character.js line: 46-53",
     "image": "Stockage_type"
   },
   {
     "skill": "Callback",
-    "implementation": "x (either by use of API or own construction)",
+    "implementation": "Callback the same function",
     "location": "Obstacles.js line: 21-28",
     "image": "CallBack"
   },
   {
     "skill": "Drag'n Drop",
-    "implementation": "x (Building an avatar)",
+    "implementation": "Choosing an avatar.",
     "location": "choose_character.js line: 26-44",
     "image": "DragDrop"
   },
   {
     "skill": "Ajax",
-    "implementation": "OPTIONAL (Game setup)",
+    "implementation": "Game setup.",
     "location": "login.html line: 50-74",
     "image": "Ajax"
   },
   {
     "skill": "Several variable scope in JS",
-    "implementation": "x (implicit)",
+    "implementation": "Implicit use of variable scopes.",
     "location": "main.js line: 5-27",
     "image": "Several_varaible_scope_JS"
   },
   {
     "skill": "Natives Libraries",
-    "implementation": "x (min. Math)",
+    "implementation": "Use of native libraries Math to randomly creation.",
     "location": "main.js line: 85-86",
     "image": "Natives Libraries"
   },
   {
     "skill": "Variable comparison operators",
-    "implementation": "x (implicit)",
+    "implementation": "Check the elementID",
     "location": "main.js line: 87-95",
     "image": "Variable_Comp_operator"
   },
   {
     "skill": "JSON",
-    "implementation": "OPTION (Game setup et React JS website)",
+    "implementation": "Setting the score of the players",
     "location": "score.js line: 16-24",
     "image": "JSON"
   },
   {
     "skill": "Geolocalisation",
-    "implementation": "x (Implicit)",
+    "implementation": "Get the localisation of the player",
     "location": "login.html line: 38-47",
     "image": "Geolocalisation"
   }

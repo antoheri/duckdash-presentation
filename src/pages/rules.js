@@ -11,7 +11,6 @@ function RulesPage() {
           <article>
             <header>
               <h2>Game Rules</h2>
-              <p>By Jean Dupont on February 5th, 2019 at 09:00</p>
             </header>
             <p>Welcome to the rules page of Duck Dash! Here's how to play:</p>
             <ul>
@@ -27,15 +26,14 @@ function RulesPage() {
               <li>
                 Each successful passage through the city earns you points.
               </li>
-              <li>
-                The further you go, the more challenging the game becomes.
-              </li>
-              <li>The game ends when you are hit by an obstacle.</li>
+              <li>The game ends when you are hit by an obstacle.</li><br/>
               {}
-              <li>To move forward, press the Up arrow key.</li>
-              <li>To move backward, press the Down arrow key.</li>
-              <li>To move left, press the Left arrow key.</li>
-              <li>To move right, press the Right arrow key.</li>
+              <li>To move <strong>forward</strong>, press the Up arrow key.</li>
+              <li>To move <strong>backward</strong>, press the Down arrow key.</li>
+              <li>To move <strong>left</strong>, press the Left arrow key.</li>
+              <li>To move <strong>right</strong>, press the Right arrow key.</li>
+              <br/>
+              <li>If you want to stop the music, press "M" at anytime</li>
             </ul>
             <p>Have fun and try to beat your high score!</p>
           </article>
