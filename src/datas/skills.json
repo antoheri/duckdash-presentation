@@ -8,7 +8,7 @@
   {
     "skill": "Medias & API",
     "implementation": "Use of the Web Audio API to play background audio files. Creation and manipulation of <audio> elements via JavaScript.",
-    "location": "file.js line: XXX",
+    "location": "sound.js line: 1-6",
     "image": "Media"
   },
   {
