@@ -66,9 +66,6 @@ function LogbookPage() {
               <li>
                 <strong>Total time of project</strong>: {totalDuration} hours
               </li>
-              <li>
-                <strong>Other data: ...</strong>
-              </li>
             </ul>
           </div>
         </aside>
