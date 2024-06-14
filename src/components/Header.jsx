@@ -9,7 +9,7 @@ export default function Header() {
           <li className="hamburger">
             <img
                 src="../../images/hamburger_icon.svg"
-                alt="haburger logo"
+                alt="hamburger logo"
             />
           </li>
           <li className={location.endsWith("/") ? "active" : ""}>
