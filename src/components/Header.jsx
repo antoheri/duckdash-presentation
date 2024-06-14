@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import hamburgerIcon from '../hamburger_icon.svg'
 export default function Header() {
   const location = window.location.href;
   return (
@@ -8,7 +9,7 @@ export default function Header() {
         <ul>
           <li className="hamburger">
             <img
-                src="../../images/hamburger_icon.svg"
+                src={hamburgerIcon}
                 alt="hamburger logo"
             />
           </li>
