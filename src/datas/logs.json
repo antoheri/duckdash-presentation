@@ -4,7 +4,7 @@
     "Activity": "Final Integration",
     "Participants": "All",
     "Duration": 2,
-    "Description": "Transfer the project on Pantheon and Wordpress"
+    "Description": "Try to integrate the react site and the game on Pantheon and Wordpress, but finally upload the project to our VPS to simplify the process."
   },
   {
     "Date": "30.05.2024",
@@ -196,4 +196,3 @@
     "Participants": "Marc"
   }
 ]
-
